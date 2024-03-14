@@ -14,6 +14,9 @@ import Hosting from './pages/Hosting/Hosting';
 import Functions from './pages/Functions/Functions';
 import Database from './pages/Database/Database';
 import Storage from './pages/Storage/Storage';
+import Analitycs from './pages/Analitycs/Analitycs';
+import Performance from './pages/Performance/Performance';
+import Testlab from './pages/Test-Lab/TestLab';
 import { ThemeProvider } from '@mui/material/styles';
 import {dashboardTheme} from './dashboardTheme';
 
@@ -31,6 +34,9 @@ root.render(
           <Route path="hosting" element={<Hosting />} />
           <Route path="machine-learning" element={<MachineLearning />} />
           <Route path="storage" element={<Storage />} />
+          <Route path="analitycs" element={<Analitycs />} />
+          <Route path="performance" element={<Performance />} />
+          <Route path="testlab" element={<Testlab />} />
         </Route>
       </Routes>
   </BrowserRouter>

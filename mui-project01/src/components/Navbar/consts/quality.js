@@ -18,6 +18,6 @@ export const qualityItems = [
         id: 2,
         icon: <AppSettingsAltIcon />,
         label: 'Test Lab',
-        route: 'test-lab',
+        route: 'testlab',
     },
 ]

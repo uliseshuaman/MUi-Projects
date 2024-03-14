@@ -1,10 +1,11 @@
+import { Grid } from '@mui/material'
 import React from 'react'
 
 const Autentication = () => {
   return (
-    <div style={{marginLeft: '500px'}}>
+    <Grid item xs={8}>
       Autentication page
-    </div>
+    </Grid>
   )
 }
 

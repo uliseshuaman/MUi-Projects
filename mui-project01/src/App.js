@@ -4,10 +4,9 @@ import { Outlet } from "react-router-dom";
 import Grid from '@mui/material/Grid';
 
 
-
 function App() {
   return (
-    <Grid>      
+    <Grid container>      
       <Navbar />      
       <Outlet />
     </Grid>
